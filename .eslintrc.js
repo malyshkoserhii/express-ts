@@ -27,17 +27,7 @@ module.exports = {
 				caughtErrorsIgnorePattern: '^_',
 			},
 		],
-		'no-unused-vars': [
-			'error',
-			{
-				vars: 'all',
-				args: 'after-used',
-				ignoreRestSiblings: false,
-				argsIgnorePattern: '^_',
-				varsIgnorePattern: '^_',
-				caughtErrorsIgnorePattern: '^_',
-			},
-		],
+		'no-unused-vars': 'off',
 		indent: ['error', 'tab'],
 		quotes: ['error', 'single'],
 	},
